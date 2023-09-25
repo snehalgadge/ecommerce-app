@@ -1,46 +1,31 @@
-# Getting Started with Create React App and Redux
+# [1.Ecommerce App](https://github.com/snehalgadge/Full-Stack-JavaScript-Projects-2022-/tree/main/04_REACT/ecommerce-app)<br>
+## [Live Link](https://snehal-ecommerce.netlify.app/)
+![Screenshot (480)](https://github.com/snehalgadge/Full-Stack-JavaScript-Projects-2022-/assets/91423583/5b9e87ec-6236-4bf3-be94-c6618e6324d5)
+<br> <br>
+# Tech Stack: 
+## Reactjs,Redux,Axios,firebase,tailwind
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+- **Initial Planning and Understanding:**
+  - Began the development of the e-commerce app by thoroughly understanding its components and pages.
 
-## Available Scripts
+- **Home Page Development:**
+  - Started the development process with the home page.
+  - Implemented core functionality for the home page, including product display and navigation.
+  - Added "Add to Cart" functionality directly on the home page for a seamless shopping experience.
 
-In the project directory, you can run:
+- **User Authentication:**
+  - Integrated Firebase for user authentication to ensure secure user login and logout.
+  - Implemented a user-friendly interface that displays the user's name upon successful login.
 
-### `npm start`
+- **Redux Store Setup:**
+  - Established a Redux store to manage application state efficiently.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Shopping Cart Functionality:**
+  - Enhanced the shopping experience by adding a cart feature.
+  - Within the cart, implemented functions such as:
+    - Increasing the quantity of items.
+    - Deleting items from the cart.
+    - Clearing the entire cart.
+    - Calculating the total cart amount.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+By following this development approach, the e-commerce app was designed to provide a user-friendly shopping experience with features like user authentication and a fully functional shopping cart powered by Redux.
